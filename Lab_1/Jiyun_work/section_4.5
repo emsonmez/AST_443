@@ -1,0 +1,33 @@
+
+1. Applying Calibration Files:
+   - Bias Frames: These are taken to account for the electronic noise produced by the camera even when no light is reaching the detector.
+   Bias frames should always be taken with the same telescope + instrument setup as the observations because the readout noise and camera electronics are specific to that setup. 
+   Bias frames can usually be taken anytime during the night, or even the next day, as long as the setup remains the same.
+   
+   - Dark Frames: Dark frames are used to subtract thermal noise produced by the detector. 
+   They need to be taken at the same temperature, exposure time, and setup as the science images. 
+   However, they can be taken at any point during the night or even on the next day (with the same conditions) 
+   since they don't rely on the sky conditions.
+   
+   - Flat-Field Frames: These are used to correct for variations in sensitivity across the detector, 
+   such as dust on the optics or pixel-to-pixel variation. 
+   Flat fields need to be taken with the same telescope, instrument setup, and filter combination as the science observations, 
+   as changes in the optical setup would alter the illumination pattern. 
+   Ideally, flat fields should be taken close to the time of the observations, 
+   but they can be taken later if the setup hasn't changed.
+   
+   - Arc Lamp (Wavelength Calibration): These are used to determine the wavelength corresponding to each pixel in the spectrograph. 
+   The same instrument and telescope setup is crucial for wavelength calibration, 
+   as any change in the optical path would shift the wavelength solution. 
+   It's best to take these calibrations as close as possible to the science exposures, 
+   but they can be taken the next day if the setup remains unchanged.
+
+2. Timing and Reusability of Calibration Exposures:
+   - Calibrations must be taken with the same setup: 
+   Bias, dark, flat-field, and arc lamp exposures must all be taken with the same telescope and instrument setup as your observations. 
+   Any change in the detector or optical path would invalidate these calibration files.
+   
+   -Calibrations could be taken the next day: 
+   In some cases, bias frames, dark frames, and flat fields can be taken on the next day if the setup hasn't changed. 
+   However, flat fields are more sensitive to changes in the optical path, so they should ideally be taken on the same night if possible. 
+   Arc lamp exposures can also be taken the next day, provided the setup is exactly the same as during the observations.
