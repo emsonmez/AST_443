@@ -54,7 +54,7 @@ HISTORY: Git URL https://github.com/dstndstn/astrometry.net
 HISTORY: Git revision 0.95-15-gbeb78120
 HISTORY: Git date Tue_Jul_30_19:45:49_2024_+0000
 HISTORY: This is a WCS header was created by Astrometry.net.
-DATE: 2024-11-22T04:25:46
+DATE: 2024-11-22T06:27:55
 COMMENT: -- onefield solver parameters: --
 COMMENT: Index(0): /data/INDEXES/index-4100/index-4107.fits
 COMMENT: Index(1): /data/INDEXES/index-4100/index-4108.fits
@@ -783,5 +783,5 @@ COMMENT: quads tried: 12421
 COMMENT: quads matched: 28555
 COMMENT: quads verified: 27872
 COMMENT: objs tried: 9
-COMMENT: cpu time: 1.62192
+COMMENT: cpu time: 1.71776
 COMMENT: --
